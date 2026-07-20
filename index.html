@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DriftFrame Privacy Policy</title>
+  <meta name="description" content="Privacy policy for the DriftFrame Chrome extension.">
+  <style>
+    :root { color-scheme: light dark; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #eef3f5; color: #172128; line-height: 1.65; }
+    main { width: min(780px, calc(100% - 32px)); margin: 48px auto; padding: 48px; box-sizing: border-box; border: 1px solid #d9e2e6; border-radius: 22px; background: #fff; box-shadow: 0 18px 50px rgba(25, 48, 60, .08); }
+    h1 { margin: 0 0 6px; font-size: clamp(2rem, 5vw, 3.2rem); letter-spacing: -.045em; }
+    h2 { margin-top: 2rem; font-size: 1.25rem; }
+    p, li { color: #42545e; }
+    .eyebrow { margin: 0 0 12px; color: #176c8d; font-size: .78rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    .meta { margin: 0 0 32px; color: #6c7d85; }
+    a { color: #126f91; }
+    hr { margin: 42px 0; border: 0; border-top: 1px solid #d9e2e6; }
+    @media (max-width: 640px) { main { margin: 0; width: 100%; padding: 28px 20px; border: 0; border-radius: 0; } }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0d1418; color: #eaf1f4; }
+      main { background: #131d22; border-color: #2b3d46; box-shadow: none; }
+      p, li { color: #b5c4cb; }
+      .meta { color: #91a3ac; }
+      hr { border-color: #2b3d46; }
+      a { color: #68c6e8; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">DriftFrame · Unsplash Photos + ChatGPT</p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: July 20, 2026</p>
+
+    <p>DriftFrame is a Chrome new-tab extension. This policy explains the data the extension handles, why it is used, and the controls available to users.</p>
+
+    <h2>Data handled</h2>
+    <ul>
+      <li><strong>Unsplash Access Key:</strong> Entered by the user and stored only in <code>chrome.storage.local</code> on that device. It is sent directly to the Unsplash API solely to request photographs and report user-initiated downloads as required by the Unsplash API.</li>
+      <li><strong>Wallpaper preferences and favorites:</strong> Topic, refresh interval, favorite identifiers, photo URLs, photographer names, and attribution links are stored with <code>chrome.storage.sync</code>. If Chrome Sync is enabled, Google may sync this information between the user’s signed-in Chrome installations.</li>
+      <li><strong>Current wallpaper and cache time:</strong> Stored locally to reduce unnecessary API requests.</li>
+      <li><strong>ChatGPT prompt:</strong> When the optional ChatGPT handoff is used and the user presses Enter, the submitted prompt is stored locally for no more than two minutes, used to fill the ChatGPT composer, and then deleted. After verifying the text was filled, DriftFrame clicks ChatGPT’s send control once. Pressing Enter in DriftFrame is the user’s confirmation to send that prompt.</li>
+      <li><strong>Downloads:</strong> A download begins only after the user clicks a download control and is handled by Chrome’s download system.</li>
+    </ul>
+
+    <h2>Third-party services</h2>
+    <p>DriftFrame communicates directly with Unsplash to request and display photographs. If the user enables the optional ChatGPT handoff, DriftFrame sends only the user-submitted prompt to chatgpt.com. Unsplash, OpenAI, Google, and Chrome process information under their own privacy policies.</p>
+
+    <h2>What DriftFrame does not do</h2>
+    <p>DriftFrame has no advertising, analytics, tracking, sale of data, or developer-operated backend. It does not collect browsing history, read unrelated pages, or transmit user data to the developer.</p>
+
+    <h2>User control and deletion</h2>
+    <p>Users can revoke ChatGPT site access from Chrome’s extension details, remove favorites individually, clear extension data in Chrome, or uninstall the extension. Chrome Sync and deletion of synced extension data are managed through the user’s Google account and Chrome settings.</p>
+
+    <h2>Security and limited use</h2>
+    <p>All third-party requests use HTTPS. Permissions are limited to the features described above. ChatGPT access is optional and requested only when the feature is first used. DriftFrame’s use of information received from Google APIs complies with the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+
+    <h2>Contact</h2>
+    <p>Privacy or support questions: <a href="mailto:raowenjieszu@gmail.com">raowenjieszu@gmail.com</a></p>
+
+    <hr>
+
+    <p class="eyebrow" lang="zh-CN">简体中文</p>
+    <h1 lang="zh-CN">隐私政策</h1>
+    <p class="meta" lang="zh-CN">生效日期：2026 年 7 月 20 日</p>
+
+    <p lang="zh-CN">DriftFrame 是一款 Chrome 新标签页扩展。本政策说明扩展会处理哪些数据、处理原因以及用户可以使用的控制方式。</p>
+
+    <h2 lang="zh-CN">处理的数据</h2>
+    <ul lang="zh-CN">
+      <li><strong>Unsplash Access Key：</strong>由用户输入，只存储在当前设备的 <code>chrome.storage.local</code> 中。它只会被直接发送给 Unsplash API，用于请求照片以及按照 Unsplash API 规范报告用户主动发起的下载。</li>
+      <li><strong>壁纸设置与收藏：</strong>主题、更换间隔、收藏标识、照片网址、摄影师姓名和署名链接存储在 <code>chrome.storage.sync</code> 中。如果用户启用 Chrome 同步，Google 可能在其已登录的 Chrome 设备之间同步这些信息。</li>
+      <li><strong>当前壁纸与缓存时间：</strong>保存在本地，用于减少不必要的 API 请求。</li>
+      <li><strong>ChatGPT 提示词：</strong>用户使用可选的 ChatGPT 跳转功能并按下回车后，提示词会在本地最多暂存两分钟，用于填入 ChatGPT 输入框，随后删除。验证文字已填入后，DriftFrame 会点击一次 ChatGPT 的发送按钮。在 DriftFrame 中按回车即表示用户确认发送该提示词。</li>
+      <li><strong>下载：</strong>只有用户主动点击下载按钮时才会开始，并由 Chrome 下载系统处理。</li>
+    </ul>
+
+    <h2 lang="zh-CN">第三方服务</h2>
+    <p lang="zh-CN">DriftFrame 会直接连接 Unsplash 获取和显示照片。如果用户启用可选的 ChatGPT 跳转功能，扩展只会把用户主动提交的提示词发送到 chatgpt.com。Unsplash、OpenAI、Google 和 Chrome 分别依据其隐私政策处理信息。</p>
+
+    <h2 lang="zh-CN">DriftFrame 不会做什么</h2>
+    <p lang="zh-CN">DriftFrame 不包含广告、分析统计、追踪、数据出售或开发者自建后端；不会收集浏览历史、读取无关网页，也不会把用户数据传给开发者。</p>
+
+    <h2 lang="zh-CN">用户控制与删除</h2>
+    <p lang="zh-CN">用户可以在 Chrome 扩展详情页撤销 ChatGPT 网站权限、逐项删除收藏、清除扩展数据或卸载扩展。Chrome 同步及同步数据的删除由用户在 Google 账户和 Chrome 设置中管理。</p>
+
+    <h2 lang="zh-CN">安全与有限使用</h2>
+    <p lang="zh-CN">所有第三方请求均使用 HTTPS。扩展权限仅用于上述功能。ChatGPT 权限是可选的，首次使用该功能时才会请求。DriftFrame 对从 Google API 获得的信息的使用遵守 Chrome 应用商店用户数据政策，包括“有限使用”要求。</p>
+
+    <h2 lang="zh-CN">联系方式</h2>
+    <p lang="zh-CN">隐私或支持问题：<a href="mailto:raowenjieszu@gmail.com">raowenjieszu@gmail.com</a></p>
+  </main>
+</body>
+</html>
